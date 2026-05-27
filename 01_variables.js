@@ -18,3 +18,5 @@ console.table([accountPassword,accountEmail,accountCity,accountState]);
  prefer not to use var
  becouse issue of block scope and functional scope
 */
+ 
+ 
