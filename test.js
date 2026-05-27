@@ -8,3 +8,5 @@ if (temperature < 50){
   
 }
 console.log("temperature is greter than 50");
+
+console.log("rUmair");
