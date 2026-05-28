@@ -14,6 +14,7 @@ console.log(typeof isLoggedIn);
 
 let valueInNumber = Number(score);
 console.log(valueInNumber);
+
 //---------------------------------------//
 
 
