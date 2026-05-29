@@ -18,8 +18,14 @@ console.log(valueInNumber);
 //---------------------------------------//
 
 
-let value1 = 234;
-let value2 = 234;
+let f = 234;
+let g = 234;
 
-console.log(value1+value2);
+
+// console.log("f = ",f, "& b = ",g);
+// console.log("f + g" , f+ g);
+
+
+console.log("f++ =", f++);
+console.log("f = " , f);
 
