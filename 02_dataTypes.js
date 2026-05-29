@@ -29,3 +29,14 @@ let g = 234;
 console.log("f++ =", f++);
 console.log("f = " , f);
 
+//----------------------------------Functions------------------------------//
+
+
+function greet(name) {
+  return "Hello " + name;
+  
+}
+
+console.log(greet("Umair"));
+
+
