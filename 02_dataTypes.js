@@ -40,3 +40,45 @@ function greet(name) {
 console.log(greet("Umair"));
 
 
+
+function login(welcom) {
+  return "your " + welcom ; 
+}
+
+console.log(login("Welcom"));
+
+
+
+// function add_01(a, b) {
+//   return a + b ;
+  
+// }
+// let result = add(5, 3);
+
+// console.log(result);
+
+
+
+const multiply = function (a, b) {
+  return a * b;
+};
+console.log(multiply(4,5));
+
+
+
+
+const add = (a, b) => {
+  return a + b;
+};
+ console.log(add(2, 3));
+ 
+
+
+
+ function calculateBill(price, tax) {
+    return price + (price * tax / 100);
+}
+
+let finalBill = calculateBill(1000, 18);
+
+console.log(finalBill);
