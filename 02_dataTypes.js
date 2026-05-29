@@ -68,17 +68,27 @@ console.log(multiply(4,5));
 
 
 const add = (a, b) => {
-  return a + b;
+  return a / b;
 };
- console.log(add(2, 3));
+ console.log(add(4, 3));
  
 
 
 
  function calculateBill(price, tax) {
-    return price + (price * tax / 100);
+  return price + (price * tax / 100);
+  
 }
-
+ 
 let finalBill = calculateBill(1000, 18);
 
 console.log(finalBill);
+
+
+
+function isEven(num) {
+  return num % 2 === 0;
+  
+}
+ console.log(isEven(3));
+ 
