@@ -110,8 +110,8 @@ function reverse(uamir) {
 console.log(reverse());
 
 
-function reverse(password) {
+function reverse_2(password) {
   return "password".split("").reverse().join("");
   
 }
-console.log(reverse());
+console.log(reverse_2());
