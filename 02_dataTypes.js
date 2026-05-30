@@ -87,8 +87,8 @@ console.log(finalBill);
 
 
 function isEven(num) {
-  return num % 2 === 0;
+  return num % 5 === 0;
   
 }
- console.log(isEven(3));
+ console.log(isEven(5));
  
