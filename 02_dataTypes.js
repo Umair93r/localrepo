@@ -136,9 +136,11 @@ console.log(reverse_2());
 
 
 function greetUser(name) {
-    return "Hello, " + name + "!";
+    return "Hello " + name + "!";
 }
+
 console.log(greetUser());
+
 
 
 
