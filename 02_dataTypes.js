@@ -136,10 +136,11 @@ console.log(reverse_2());
 
 
 function greetUser(name) {
-    return "Hello " + name + "!";
+  return "Hello " + name + " how was your day!";
 }
 
-console.log(greetUser());
+console.log(greetUser("umair"));
+
 
 
 
@@ -147,7 +148,7 @@ console.log(greetUser());
 
 // 1. Declaring the function (Teaching JS how to do it)
 function cookPizza(topping) {
-    return "A delicious " + topping + " pizza is ready!";
+  return "A delicious " + topping + " pizza is ready!";
 }
 
 // 2. Calling the function (Actually making the pizza)
