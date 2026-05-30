@@ -86,12 +86,19 @@ console.log(finalBill);
 
 
 
+
+
+
 function isEven(num) {
   return num % 5 === 0;
   
 }
  console.log(isEven(5));
  
+
+
+
+
 
 
  function largest(a, b) {
@@ -101,17 +108,47 @@ function isEven(num) {
  console.log(largest(23 , 56));
  
 
+
+
+
  
 
 function reverse(uamir) {
+
   return "umair".split("").reverse().join("");
   
 } 
 console.log(reverse());
 
 
+
+
+
+
+
 function reverse_2(password) {
+
   return "password".split("").reverse().join("");
   
 }
 console.log(reverse_2());
+
+
+
+function greetUser(name) {
+    return "Hello, " + name + "!";
+}
+console.log(greetUser());
+
+
+
+
+// 1. Declaring the function (Teaching JS how to do it)
+function cookPizza(topping) {
+    return "A delicious " + topping + " pizza is ready!";
+}
+
+// 2. Calling the function (Actually making the pizza)
+let myDinner = cookPizza("pepperoni"); 
+
+console.log(myDinner); // Output: A delicious pepperoni pizza is ready!
