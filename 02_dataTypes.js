@@ -92,3 +92,26 @@ function isEven(num) {
 }
  console.log(isEven(5));
  
+
+
+ function largest(a, b) {
+  return a > b ? a : b;
+  
+ }
+ console.log(largest(23 , 56));
+ 
+
+ 
+
+function reverse(uamir) {
+  return "umair".split("").reverse().join("");
+  
+} 
+console.log(reverse());
+
+
+function reverse(password) {
+  return "password".split("").reverse().join("");
+  
+}
+console.log(reverse());
