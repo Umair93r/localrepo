@@ -155,3 +155,18 @@ function cookPizza(topping) {
 let myDinner = cookPizza("pepperoni"); 
 
 console.log(myDinner); // Output: A delicious pepperoni pizza is ready!
+
+
+function myFunc(theObject) {
+  theObject.make = "Toyota";
+}
+const myCar = {
+  make : "honda",
+  model : "Accord",
+  year : 1999,
+};
+
+console.log(myCar.make);
+myFunc(myCar);
+console.log(myCar.make);
+
