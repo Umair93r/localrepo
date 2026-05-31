@@ -186,3 +186,13 @@ heroes [1];
 let square = num => num * num;
 
 console.log(square(5));
+
+
+let timerId = setTimeout(() => {
+  console.log("wake up to reality");
+  
+}, 5000);
+
+setInterval(() => {
+  console.log(`wake up to reality - ${new Date()}`);
+}, 5000);
