@@ -182,3 +182,7 @@ let heroes = ["umair", "umair2", "zaid", "zaid2"]
 heroes [1];
 
 // console.log(heroes);
+
+let square = num => num * num;
+
+console.log(square(5));
