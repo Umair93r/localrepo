@@ -196,3 +196,12 @@ let timerId = setTimeout(() => {
 setInterval(() => {
   console.log(`wake up to reality - ${new Date()}`);
 }, 5000);
+
+
+let num = 1;
+
+while (num <= 10) {
+  console.log(num);
+  num ++;
+  
+}
