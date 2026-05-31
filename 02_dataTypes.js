@@ -170,3 +170,15 @@ console.log(myCar.make);
 myFunc(myCar);
 console.log(myCar.make);
 
+
+//-------------------------------------Array-----------------------------//
+
+
+let marks = [98, 76, 76, 93, 89, 23, 45,];
+
+console.log(marks);
+
+let heroes = ["umair", "umair2", "zaid", "zaid2"]
+heroes [1];
+
+// console.log(heroes);
