@@ -205,3 +205,22 @@ while (num <= 10) {
   num ++;
   
 }
+
+console.log("final value of num " + num);
+
+
+let arr = [1, 2, 3, 4, 5];
+console.log(arr);
+arr.push(6);
+console.log(arr);
+arr.pop();
+console.log(arr);
+
+
+let num_1 = 1;
+while (num_1 <= 10) {
+  console.log(num_1);
+ 
+  num_1 = num_1 +1;
+   
+}
