@@ -22,3 +22,34 @@ function greet(name) {
   const counter = createCounter();
 
   counter();
+
+  //----------------------------------------------//
+
+  function bank() {
+    let balance = 100000;
+
+    return {
+      deposit(amount){
+        balance += amount;
+        console.log(balance);
+        
+      },
+
+      withdraw(amount){
+        balance -= amount;
+        console.log(balance);
+        
+      },
+
+      checkBalance(){
+        console.log(balance);
+        
+      }
+    }
+  }
+
+  const account = bank ();
+
+  account.deposit(5000);
+  account.withdraw(2000);
+  account.checkBalance()
