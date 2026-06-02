@@ -20,29 +20,86 @@
 
 //----------------------------------------------------------------------//
 
-function init() {
-  var name = "Mozilla"; 
-  function displayName() {
-   console.log("too inner",name); 
+// function init() {
+//   var name = "Mozilla"; 
+//   function displayName() {
+//    console.log("too inner",name); 
+//   }
+//   displayName();
+// }
+// init();
+
+// //-------------------------------------------------------------//
+
+// function outer(){
+//   let username = "umair"
+//   console.log("outer" , secret)
+//   function inner(){
+//     let secret = "my123"
+//     console.log("inner", username);
+//   }
+//   function innerTwo(){
+//     console.log("innerTwo", username);
+//     console.log(secret)
+//   }
+//   inner();
+//   innerTwo();
+// }
+// outer();
+
+
+
+//------------------------------------//
+
+function adder(num) {
+  function add(b) {
+    console.log(num + b);
+    
   }
-  displayName();
+  return add;
 }
-init();
+
+const addTo5 = adder (5);
+const addTo10 = adder (10)
+
+addTo5(2);
+addTo10(10);
 
 //-------------------------------------------------------------//
 
+
+let username = "Umair" // global variable
+
 function outer(){
-  let username = "umair"
-  console.log("outer" , secret)
-  function inner(){
-    let secret = "my123"
-    console.log("inner", username);
+  let score = 10  // outer variable
+
+  function inner (){
+    console.log(score);
+    console.log(username);
+    
   }
-  function innerTwo(){
-    console.log("innerTwo", username);
-    console.log(secret)
-  }
+
   inner();
-  innerTwo();
 }
+
+outer();
+
+//------------------------------//
+
+let country = "india";
+
+function outer() {
+
+  let city = "pune";
+
+  function inner() {
+    console.log(country);
+    console.log(city);
+    
+    
+  }
+  
+  inner();
+}
+
 outer();
