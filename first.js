@@ -69,6 +69,7 @@ addTo10(10);
 
 
 let username = "Umair" // global variable
+let country = "india";
 
 function outer(){
   let score = 10  // outer variable
@@ -86,7 +87,7 @@ outer();
 
 //------------------------------//
 
-let country = "india";
+
 
 function outer() {
 
