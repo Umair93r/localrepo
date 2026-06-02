@@ -32,7 +32,7 @@ init();
 //-------------------------------------------------------------//
 
 function outer(){
-  // let username = "umair"
+  let username = "umair"
   console.log("outer" , secret)
   function inner(){
     let secret = "my123"
