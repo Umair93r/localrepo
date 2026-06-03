@@ -6,3 +6,11 @@ if (age > 18){
 } else {
   console.log("You cannot drive"); 
 }
+
+
+//--------------------------------------------------//
+ 
+
+const myArray = [0, 1, 2, 3, 4, 5];
+
+console.log (myArray[0]);
