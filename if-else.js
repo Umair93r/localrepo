@@ -15,4 +15,9 @@ const myArray = [0, 1, 2, 3, 4, 5];
 
 console.log (myArray[0]);
 
+function sum(a, b) {
+ 
+  console.log("sum", a + b)
+}
 
+sum(2, 3);
